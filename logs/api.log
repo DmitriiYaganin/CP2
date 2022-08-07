@@ -51,5 +51,154 @@ INFO:werkzeug: * Running on all addresses (0.0.0.0)
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 677-503-480
-INFO:root:запрос на все посты
+INFO:root:пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
 INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 23:14:47] "GET /api/posts HTTP/1.1" 200 -
+INFO:werkzeug: * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.23:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-449-031
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:22:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:22:38] "GET /static/css/styles.min.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:22:38] "GET /static/img/bookmark.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:22:38] "GET /static/img/eye.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:22:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:08] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:08] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:08] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:08] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\FIFer\\PycharmProjects\\CP2\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-449-031
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:10] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:10] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:10] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:11] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:11] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:11] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:11] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:12] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:12] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:12] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:14] "GET /users/johnny HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:14] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:14] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:14] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:16] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:16] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:16] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:21] "[33mGET /templates/bookmarks.htmlmarks.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:24] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:24] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:24] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:31] "[33mGET /posts/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:35] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:35] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:35] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:35] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:39] "GET /posts/2 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:39] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:39] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:39] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:51] "GET /results HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:23:51] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:24:01] "GET /results?query=пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:24:01] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:24:01] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:24:01] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:24:08] "[33mGET /main/templates/post.html/post.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.23 - - [07/Aug/2022 11:24:12] "[33mGET /templates/tag.htmls/tag.html HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\FIFer\\PycharmProjects\\CP2\\main\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-449-031
+INFO:werkzeug: * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.23:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-449-031
+INFO:werkzeug:127.0.0.1 - - [07/Aug/2022 11:40:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Aug/2022 11:40:54] "GET /static/css/styles.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Aug/2022 11:40:54] "GET /static/img/bookmark.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Aug/2022 11:40:54] "GET /static/img/eye.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Aug/2022 11:40:55] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Aug/2022 11:40:55] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Aug/2022 11:40:55] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Aug/2022 11:40:55] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Aug/2022 11:40:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Aug/2022 11:40:56] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Aug/2022 11:40:56] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Aug/2022 11:40:56] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Aug/2022 11:40:57] "GET /posts/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Aug/2022 11:40:57] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Aug/2022 11:40:57] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Aug/2022 11:40:57] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Aug/2022 11:40:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Aug/2022 11:40:59] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Aug/2022 11:40:59] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Aug/2022 11:40:59] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\FIFer\\PycharmProjects\\CP2\\tests\\test_utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-449-031
+INFO:werkzeug: * Detected change in 'C:\\Users\\FIFer\\PycharmProjects\\CP2\\tests\\test_utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-449-031
+INFO:werkzeug: * Detected change in 'C:\\Users\\FIFer\\PycharmProjects\\CP2\\tests\\test_utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-449-031
+INFO:werkzeug: * Detected change in 'C:\\Users\\FIFer\\PycharmProjects\\CP2\\tests\\test_utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-449-031
+INFO:werkzeug: * Detected change in 'C:\\Users\\FIFer\\PycharmProjects\\CP2\\tests\\test_utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-449-031
+INFO:werkzeug: * Detected change in 'C:\\Users\\FIFer\\PycharmProjects\\CP2\\tests\\test_utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-449-031
+INFO:werkzeug: * Detected change in 'C:\\Users\\FIFer\\PycharmProjects\\CP2\\tests\\test_utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-449-031
+INFO:werkzeug: * Detected change in 'C:\\Users\\FIFer\\PycharmProjects\\CP2\\tests\\test_utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-449-031
+INFO:werkzeug: * Detected change in 'C:\\Users\\FIFer\\PycharmProjects\\CP2\\tests\\test_utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-449-031
+INFO:werkzeug: * Detected change in 'C:\\Users\\FIFer\\PycharmProjects\\CP2\\tests\\test_utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-449-031
+INFO:werkzeug: * Detected change in 'C:\\Users\\FIFer\\PycharmProjects\\CP2\\tests\\test_utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-449-031
+INFO:werkzeug: * Detected change in 'C:\\Users\\FIFer\\PycharmProjects\\CP2\\tests\\test_utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-449-031
+INFO:werkzeug: * Detected change in 'C:\\Users\\FIFer\\PycharmProjects\\CP2\\tests\\test_utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-449-031
+INFO:werkzeug: * Detected change in 'C:\\Users\\FIFer\\PycharmProjects\\CP2\\tests\\test_utils.py', reloading
+INFO:werkzeug: * Restarting with stat

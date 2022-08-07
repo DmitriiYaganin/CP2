@@ -1,9 +1,8 @@
 import json
 
-
 def _open_comments():
     """
-    открывает файл с комментами
+    Открывает файл с комментами
     :return: список со словарями из файла comments.json
     """
     with open('data/comments.json', 'r', encoding='utf-8') as f:
@@ -34,7 +33,7 @@ def get_posts_all():
 
 def _index_user():
     """
-    составляем список с комментаторами
+    Составляем список с комментаторами
     :return: множество с комментаторами
     """
     commenter = set()
@@ -104,8 +103,3 @@ def get_post_by_pk(pk):
     for i in range(len(posts_by_pk)):
         if posts_by_pk[i]['pk'] == pk:
             return posts_by_pk[i]
-
-
-def for_views():
-
-    return 25

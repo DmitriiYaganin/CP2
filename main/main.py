@@ -1,22 +1,22 @@
-# -*- coding: utf-8 -*-
 import json
 import logging
 
 from flask import Blueprint, render_template, request, redirect, url_for, jsonify
 
-from utils import get_posts_all, get_comments_by_post_id, get_post_by_pk, search_for_posts, get_posts_by_user, for_views
+from utils import get_posts_all, get_comments_by_post_id, get_post_by_pk, search_for_posts, get_posts_by_user
 
 logging.basicConfig(filename='logs/api.log', level=logging.INFO)
+api_logger_handler = logging.FileHandler(filename="logs/api.log", encoding="utf-8")
 logger = logging.getLogger(__name__)
 
-#делаем экземпляр класса блюпринт
+# Делаем экземпляр класса блюпринт
 main_blueprint = Blueprint('main_blueprint', __name__, template_folder='templates')
 
 
 @main_blueprint.route('/')
 def main_page():
     """
-    вьюшка блюпринт на главную страницу
+    Вьюшка блюпринт на главную страницу
     :return:
     """
     posters = get_posts_all()
@@ -39,7 +39,7 @@ def page_search_results():
     post_results = search_for_posts(answer)
     len_post_results = len(post_results)
     return render_template('search-results.html', post_results=post_results, len_post_results=len_post_results)
-    #return redirect(url_for('main_blueprint.search_posts'))
+    # return redirect(url_for('main_blueprint.search_posts'))
 
 @main_blueprint.route('/users/<username>')
 def users_page(username):
@@ -65,4 +65,3 @@ def api_get_posts_by_user(post_id):
         if post_id == post['pk']:
             post_for_pk.append(post)
     return jsonify(post_for_pk)
-
