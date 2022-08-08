@@ -74,7 +74,6 @@ def get_comments_by_post_id(post_id):
             if file_with_comments[i]['post_id'] == post_id:
                 comments.append(file_with_comments[i])
         return comments
-
     raise ValueError("Post not found")
 
 
